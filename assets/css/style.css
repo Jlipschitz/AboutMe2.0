@@ -1,0 +1,26 @@
+#navLinks {
+margin-top: 30px;
+}
+.backstretch {
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    height: 1077px;
+    width: 2517px;
+    z-index: -999999;
+    position: fixed;
+}
+.backstretch img {
+	position: absolute;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    width: 2517px;
+    height: 1678px;
+    max-width: none;
+    z-index: -999999;
+    left: 0px;
+    top: -300.5px;
+}
