@@ -1,26 +1,69 @@
-#navLinks {
-margin-top: 30px;
+.portfolio-item {
+    margin-bottom: 25px;
 }
-.backstretch {
-    left: 0px;
-    top: 0px;
-    overflow: hidden;
-    margin: 0px;
-    padding: 0px;
-    height: 1077px;
-    width: 2517px;
-    z-index: -999999;
-    position: fixed;
+
+footer {
+    margin: 50px 0;
 }
-.backstretch img {
-	position: absolute;
-    margin: 0px;
-    padding: 0px;
-    border: none;
-    width: 2517px;
-    height: 1678px;
-    max-width: none;
-    z-index: -999999;
-    left: 0px;
-    top: -300.5px;
+
+a {
+    color: #13b6ec;
+    text-decoration: none;
+}
+
+.nav.navbar-nav.navbar-right li a {
+    color: #ffffff;
+}
+
+#nameLink {
+    color: #ffffff;
+    font-size: 2.6em;
+    font-family: sans-serif, arial !important;
+    margin-right: 100px;
+}
+
+#nameLink:active {
+    color: #13b6ec;
+}
+
+.navbar.navbar-default.navbar-fixed-top {
+    background-color: #13b6ec;
+    border-bottom: 8px solid #ffffff;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    background-color: #ffffff !important;
+    color: #13b6ec !important;
+    border-radius: 5px;
+}
+
+.nav.navbar-nav.navbar-right li a:hover {
+    background-color: lightgray;
+}
+
+.page-header {
+    margin: 60px;
+}
+
+#jamieAbout {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+    font-size: 30px;
+}
+
+#jamieAvatar {
+    border-radius: 30px;
+    float: left;
+}
+
+#breakLine {
+    width: 350px;
+    border-color: black;
+    border-width: 2px;
 }
